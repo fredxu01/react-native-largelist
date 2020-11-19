@@ -340,7 +340,7 @@ export class LargeList extends React.PureComponent<LargeListPropType> {
         });
       if (inverted) transform.push({ scaleY: -1 });
     } else {
-      transform.push({ translateY: 10000 });
+      //transform.push({ translateY: 10000 });
     }
     const header = React.Children.only(renderHeader());
     this._orgOnHeaderLayout = header.onLayout;
